@@ -3,7 +3,7 @@ import Images from "./image";
 
 class List extends Component {
   render() {
-    const numberOfItems = 10; // The number of items you want to list
+    const numberOfItems = 4; // The number of items you want to list
     const imageList = [];
 
     for (let i = 0; i < numberOfItems; i++) {
