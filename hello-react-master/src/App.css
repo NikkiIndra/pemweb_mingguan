@@ -5,6 +5,15 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  border: 5px solid #61dafb; /* Menambahkan border */
+  border-radius: 10px;
+}
+
+.Image-with-border {
+  height: 40vmin; /* Sesuaikan ukuran gambar */
+  pointer-events: none;
+  border: 5px solid #000000; /* Border biru */
+  border-radius: 10px; /* Sudut gambar melengkung */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -33,6 +42,6 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(90deg);
   }
 }

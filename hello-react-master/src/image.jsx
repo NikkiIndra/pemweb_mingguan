@@ -15,7 +15,7 @@ import React, { Component } from "react";
 class Images extends React.Component {
   render() {
     return (
-      <img src={this.props.srcGambar} width="450" height="350" />
+      <img src={this.props.srcGambar} width="450" height="350" className="Image-with-border"/>
     )
   }
 }
