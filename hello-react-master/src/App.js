@@ -7,7 +7,7 @@ import './App.css';
 import Top from './Top.js';
 
 // create component
-const app = () => {
+const App = () => {
   return (
     <div className='App'>
       <Header list="10 daftar poto random"/>
@@ -20,4 +20,4 @@ const app = () => {
 }
 
 // export component
-export default app;
+export default App;
